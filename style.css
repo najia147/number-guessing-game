@@ -1,35 +1,28 @@
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 50px;
-}
+ body {
+   font-family: Arial, sans-serif;
+   background-color: hsl(204, 15%, 87%);
+   text-align: center;
+   margin: 50px;
+ }
 
-.container {
-  max-width: 400px;
-  margin: auto;
-  padding: 20px;
-  border: 2px solid;
-  border-radius: 10px;
-  background-color: hsl(187, 59%, 82%);
-}
+ .container {
+   max-width: 400px;
+   margin: auto;
+   padding: 20px;
+   border: 2px solid hsl(185, 22%, 95%);
+   border-radius: 10px;
+   background-color: hsl(185, 22%, 90%);
+ }
 
-input,
-button {
-  margin: 10px;
-  padding: 10px;
-  font-size: 16px;
-}
+ input,
+ button {
+   margin: 10px;
+   padding: 10px;
+   font-size: 16px;
+   border: 2px solid hsl(185, 22%, 100%);
+ }
 
-button{
-  background-color: hsl(187, 60%, 57%);
-  color: white;
-  font-size: 1.5em;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-}
+ button:hover {
+  background-color: hsl(185, 22%, 97%);
+ }
 
-button:hover{
-  background-color: hsl(187, 60%, 40%);
-}
